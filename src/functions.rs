@@ -1,21 +1,5 @@
 use std::io;
 
-pub fn addition(num_1: i32, num_2: i32) -> i32 {
-    return num_1 + num_2;
-}
-
-pub fn subtraction(num_1: i32, num_2: i32) -> i32 {
-    return num_1 - num_2;
-}
-
-pub fn multiplication(num_1: i32, num_2: i32) -> i32 {
-    return num_1 * num_2;
-}
-
-pub fn division(num_1: i32, num_2: i32) -> f32 {
-    return (num_1 / num_2) as f32;
-}
-
 pub fn get_first_num() -> i32 {
     let mut num_1 = String::new();
     println!("Please, enter the first number: ");
